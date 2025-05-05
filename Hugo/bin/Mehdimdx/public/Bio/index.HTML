@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta name="generator" content="Hugo 0.147.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
-  <title>My New Hugo Site</title>
+  <title>{{ .Site.Title }}</title>
   <link rel="stylesheet" href="/css/main.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -16,11 +15,11 @@
     </div>
     <nav class="nav-menu">
       <a href="/Bio/index.html">Bio</a>  
-      <a href="/compétences/index.html">Compétences</a>
-      <a href="/Projet/index.html">Projets</a>
-      <a href="/Experiences/index.html">Expériences</a>
-      <a href="/Loisir/index.html">Loisirs</a>
-      <a href="/Contact/index.html">Contact</a>
+      <a href="#Compétences">Compétences</a>
+      <a href="#Projets">Projets</a>
+      <a href="#Expériences">Expériences</a>
+      <a href="#Loisirs">Loisirs</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -54,8 +53,8 @@
     minWidth: 200.00,
     scale: 1.00,
     scaleMobile: 1.00,
-    backgroundColor: 0x0, 
-    color: 0xffffff        
+    backgroundColor: 0x0, // fond noir
+    color: 0xffffff        // anneaux blancs (ou une autre couleur visible)
   })
   </script>
 </body>

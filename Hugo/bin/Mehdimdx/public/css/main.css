@@ -1,22 +1,97 @@
-body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+.site-header {
+  background-color: #ffffff; /* bleu foncé */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
 }
 
-header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
 }
 
-footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-a {
-  color: #00e;
+.logo img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: black;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-icons i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;       /* Pour empiler verticalement */
+  justify-content: center;      /* Centrage vertical */
+  align-items: center;          /* Centrage horizontal */
+  min-height: calc(100vh - 80px); /* Prend toute la hauteur sauf le header */
+  text-align: center;
+  padding: 1rem;
+}
+
+.flex-center h1,
+.flex-center h2 {
+  margin: 0.5rem 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #5b32b4;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav-menu a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  margin-top: 80px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
 }

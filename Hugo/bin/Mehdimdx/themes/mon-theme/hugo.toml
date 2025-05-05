@@ -22,3 +22,20 @@ title = 'My New Hugo Site'
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+
+[menu]
+  [[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Shortcodes"
+    url = "/shortcodes/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Examples"
+    url = "#"
+    weight = 3
+
