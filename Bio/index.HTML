@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-image: url('/images/Bio_photo.jpg'); /* chemin de ton image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="/images/MDX_logo.png" alt="Logo" style="height: 80px;">
+    </div>
+    <nav class="nav-menu">
+      <a href="/index.html">Accueil</a>  
+      <a href="#Compétences">Compétences</a>
+      <a href="#Projets">Projets</a>
+      <a href="#Expériences">Expériences</a>
+      <a href="#Loisirs">Loisirs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <section id="about" style="padding: 60px 20px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 300px;">
+          <h2 style="color: #ff6b00; font-size: 2.5em;">QUI SUIS-JE ?</h2>
+
+          <p style="max-width: 600px; color: #e0e0e0; font-size: 1em; line-height: 1.6em;">
+            Je suis un gars passionné par les environnements d’automatisation, j'aime contribuer dans des projets concrets. Pour moi, l'esprit d'équipe et l'apprentissage continu sont des éléments essentiels. Actuellement, je suis en train de me familiariser avec les pratiques DevOps avec l'objectif précis de devenir un ingénieur DevOps
+          </p>
+        </div>
+      
+        <div style="flex: 1; min-width: 300px; padding-left: 40px;">
+            <div style="margin-bottom: 15px;">
+                <strong>Linux / Windows Server</strong>
+                <div style="display: flex; align-items: center;">
+                  <div style="flex: 1; background: #2c2c2c; height: 10px; border-radius: 5px; margin-right: 10px;">
+                    <div style="width: 85%; height: 10px; background: #ff6b00; border-radius: 5px;"></div>
+                  </div>
+                  <span style="color: #ffffff; font-size: 0.9em; min-width: 30px;">85%</span>
+                </div>
+              </div>
+              <div style="margin-bottom: 15px;">
+                <strong>GitHub / GitLab</strong>
+                <div style="display: flex; align-items: center;">
+                    <div style="flex: 1; background: #2c2c2c; height: 10px; border-radius: 5px; margin-right: 10px;">
+                      <div style="width: 60%; height: 10px; background: #ff6b00; border-radius: 5px;"></div>
+                    </div>
+                    <span style="color: #ffffff; font-size: 0.9em; min-width: 30px;">60%</span>
+                  </div>
+                </div>
+              <div style="margin-bottom: 15px;">
+                <strong>Docker / Podman</strong>
+                <div style="display: flex; align-items: center;">
+                    <div style="flex: 1; background: #2c2c2c; height: 10px; border-radius: 5px; margin-right: 10px;">
+                      <div style="width: 60%; height: 10px; background: #ff6b00; border-radius: 5px;"></div>
+                    </div>
+                    <span style="color: #ffffff; font-size: 0.9em; min-width: 30px;">60%</span>
+                  </div>
+                </div>
+              <div style="margin-bottom: 15px;">
+                <strong>Zabbix</strong>
+                <div style="display: flex; align-items: center;">
+                    <div style="flex: 1; background: #2c2c2c; height: 10px; border-radius: 5px; margin-right: 10px;">
+                      <div style="width: 70%; height: 10px; background: #ff6b00; border-radius: 5px;"></div>
+                    </div>
+                    <span style="color: #ffffff; font-size: 0.9em; min-width: 30px;">70%</span>
+                  </div>
+                </div>
+              <div style="margin-bottom: 15px;">
+                <strong>Python / Bash</strong>
+                <div style="display: flex; align-items: center;">
+                    <div style="flex: 1; background: #2c2c2c; height: 10px; border-radius: 5px; margin-right: 10px;">
+                      <div style="width: 90%; height: 10px; background: #ff6b00; border-radius: 5px;"></div>
+                    </div>
+                    <span style="color: #ffffff; font-size: 0.9em; min-width: 30px;">90%</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+  </section>
+</body>
+<footer style="position: absolute; bottom: 0; width: 100%; text-align: center; padding: 10px; font-size: 0.8em; color: white; background-color: rgba(0,0,0,0.5);">
+    Image de fond tirée du jeu <em>Sekiro: Shadows Die Twice</em> — © FromSoftware / Activision.
+    Tous droits réservés.
+  </footer>
+</html>
